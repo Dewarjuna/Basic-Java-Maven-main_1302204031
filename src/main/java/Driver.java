@@ -15,7 +15,19 @@ public class Driver {
 		counter.decrement();
 		
 		System.out.println("jumlah Count:" + counter.getCount());
-		
+
+		counter.increaseBy(5);
+
+		System.out.println("jumlah Count:" + counter.getCount());
+
+		counter.decreaseBy(2);
+
+		System.out.println("jumlah Count:" + counter.getCount());
+
+		counter.multiplyBy(2);
+
+		System.out.println("jumlah Count:" + counter.getCount());
+
 	}
 
 }
